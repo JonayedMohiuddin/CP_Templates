@@ -1,0 +1,15 @@
+/* EXEs ARE DUMPED ELSEWHERE */
+// Normal I/O
+"c": "cd $dir && gcc $fileName -o  e:\\EXE_DUMPS\\$fileNameWithoutExt && e:\\EXE_DUMPS\\$fileNameWithoutExt",
+// "cpp": "cd $dir && g++ $fileName -o e:\\EXE_DUMPS\\$fileNameWithoutExt && e:\\EXE_DUMPS\\$fileNameWithoutExt",
+
+// File I/O  [SWITCH TO CMD BEFORE USE]
+// "c": "cd $dir && g++ $fileName -o e:\\EXE_DUMPS\\$fileNameWithoutExt && e:\\EXE_DUMPS\\$fileNameWithoutExt < e:\\_CompetetiveProgramming\\input.txt > e:\\_CompetetiveProgramming\\output.txt",
+"cpp": "cd $dir && g++ -std=c++20 $fileName -o e:\\EXE_DUMPS\\$fileNameWithoutExt && e:\\EXE_DUMPS\\$fileNameWithoutExt < e:\\_CompetetiveProgramming\\input.txt > e:\\_CompetetiveProgramming\\output.txt",
+
+// Temporary
+// "cpp": "cd $dir && g++ $fileName -o e:\\EXE_DUMPS\\$fileNameWithoutExt && e:\\EXE_DUMPS\\$fileNameWithoutExt < e:\\_CompetetiveProgramming\\input.txt",
+
+// "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+// "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        
